@@ -46,7 +46,7 @@ MobaXterm 这个工具很6
 最终决定先采用 mint-ui, vant 这两个其中一个。
 ```	
 
-#### 1. ElemeFE/mint-ui
+#### 1. ElemeFE/mint-ui  饿了么前端  Shanghai  https://zhuanlan.zhihu.com/ElemeFE
 ```
 	mint-ui Mobile UI elements for Vue.js 		 		13.6k
 	element A Vue.js 2.0 UI Toolkit for Web		 		35.4k
@@ -60,7 +60,7 @@ MobaXterm 这个工具很6
 	vue2-jd vue2+mint-ui                 				198
 		https://github.com/Caitingwei/vue2-jd
 ```
-#### 2. youzan/vant
+#### 2. youzan/vant  有赞  杭州  https://tech.youzan.com/
 ```
 	vant Lightweight Mobile UI Components built on Vue	7.6k
 	vant-weapp 轻量、可靠的小程序 UI 组件库				8.4k
@@ -71,7 +71,7 @@ MobaXterm 这个工具很6
 		https://github.com/pwx123/vue-vant-store
 
 ```
-#### 3. ant-design/ant-design-mobile
+#### 3. ant-design/ant-design-mobile  Ant Design Team  HangZhou, China  https://ant.design/index-cn
 ```
 	ant-design-mobile A configurable Mobile UI			6.7k
 	ant-design rainbow A UI Design Language				43.1k
