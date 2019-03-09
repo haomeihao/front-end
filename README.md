@@ -1,11 +1,15 @@
 [TOC]
 ### 一、Front-End Development
 - MobaXterm 这个工具很6
+- Cygwin64 Terminal, ConEmu, Git Bash
 - 聚合整理 awesome-github-vue: https://github.com/opendigg/awesome-github-vue
 - 飞冰 这个工具很6 https://alibaba.github.io/ice/ 
 - TalkingData https://www.talkingdata.com/
+- StackShare https://stackshare.io/posts/top-developer-tools-2018
+```
+gulp
 
-
+```
 
 ### 二、Github 搜索
 ```
