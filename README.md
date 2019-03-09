@@ -115,6 +115,11 @@ TalkingData iview-weapp(CSS)
 - TalkingData/iview-weapp	 CSS		3.8k 		[OK]
 - o2team/wxapp-market    小程序营销组件	1.7k 		[OK]
 
+#### 最终OK
+- https://github.com/airyland/vux
+- https://github.com/youzan/vant
+- https://github.com/lihongxun945/jquery-weui
+- https://github.com/dcloudio/uni-app
 
 
 ### 三、选型分析
