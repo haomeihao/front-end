@@ -627,7 +627,7 @@
     core-js "^2.5.7"
     regenerator-runtime "^0.12.0"
 
-"@babel/runtime@^7.0.0":
+"@babel/runtime@^7.0.0", "@babel/runtime@^7.1.5":
   version "7.3.4"
   resolved "http://registry.npm.taobao.org/@babel/runtime/download/@babel/runtime-7.3.4.tgz#73d12ba819e365fcf7fd152aed56d6df97d21c83"
   integrity sha1-c9ErqBnjZfz3/RUq7VbW35fSHIM=
@@ -726,6 +726,11 @@
   version "1.5.1"
   resolved "http://registry.npm.taobao.org/@types/q/download/@types/q-1.5.1.tgz#48fd98c1561fe718b61733daed46ff115b496e18"
   integrity sha1-SP2YwVYf5xi2FzPa7Ub/EVtJbhg=
+
+"@vant/icons@1.0.8":
+  version "1.0.8"
+  resolved "https://registry.yarnpkg.com/@vant/icons/-/icons-1.0.8.tgz#10cf8d691747ae27e3f9f9f025afd7a3c350810d"
+  integrity sha512-6q5Jz4Bx9wEIkVrchmhId0q+eoayYLdPqbcByct+jU+T3OhGw3bxCRpAvC+nq0hlqtTQL1dyMWDbOOjMO2GzZg==
 
 "@vue/babel-helper-vue-jsx-merge-props@^1.0.0-beta.2":
   version "1.0.0-beta.2"
@@ -7538,6 +7543,16 @@ validate-npm-package-license@^3.0.1:
     spdx-correct "^3.0.0"
     spdx-expression-parse "^3.0.0"
 
+vant@^1.5.9:
+  version "1.5.9"
+  resolved "https://registry.yarnpkg.com/vant/-/vant-1.5.9.tgz#febf3bdbde55df3f7662cd483a2d06085678d110"
+  integrity sha512-9hUu5l/3C3k4VX0TyXURe8dR3kQoR3nfd7zjg/QSGM4Klf+DfLTpPxOuatIOnivr/jDLXCot/2tu+uFHxCCkhw==
+  dependencies:
+    "@babel/runtime" "^7.1.5"
+    "@vant/icons" "1.0.8"
+    "@vue/babel-helper-vue-jsx-merge-props" "^1.0.0-beta.2"
+    vue-lazyload "1.2.3"
+
 vary@~1.1.2:
   version "1.1.2"
   resolved "http://registry.npm.taobao.org/vary/download/vary-1.1.2.tgz#2299f02c6ded30d4a5961b0b9f74524a18f634fc"
@@ -7592,6 +7607,11 @@ vue-hot-reload-api@^2.3.0:
   version "2.3.3"
   resolved "http://registry.npm.taobao.org/vue-hot-reload-api/download/vue-hot-reload-api-2.3.3.tgz#2756f46cb3258054c5f4723de8ae7e87302a1ccf"
   integrity sha1-J1b0bLMlgFTF9HI96K5+hzAqHM8=
+
+vue-lazyload@1.2.3:
+  version "1.2.3"
+  resolved "https://registry.yarnpkg.com/vue-lazyload/-/vue-lazyload-1.2.3.tgz#901f9ec15c7e6ca78781a2bae4a343686bdedb2c"
+  integrity sha512-DC0ZwxanbRhx79tlA3zY5OYJkH8FYp3WBAnAJbrcuoS8eye1P73rcgAZhyxFSPUluJUTelMB+i/+VkNU/qVm7g==
 
 vue-loader@^15.6.4:
   version "15.7.0"
