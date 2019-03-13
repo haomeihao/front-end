@@ -16,7 +16,7 @@
       <van-cell icon="question-o" title="常见问题" is-link />
     </van-cell-group>
 
-    <Tabbar></Tabbar>
+    <Tabbar :active="2"></Tabbar>
   </div>
 </template>
 

@@ -13,11 +13,12 @@
   export default {
     name: 'Tabbar',
     props: {
-      msg: String
+      msg: String,
+      active: Number
     },
     data() {
       return {
-        active: 0
+        active: this.props.active || 0
       }
     },
     methods: {

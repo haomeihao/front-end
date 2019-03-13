@@ -30,7 +30,7 @@
       </van-swipe-item>
     </van-swipe>-->
 
-    <Tabbar></Tabbar>
+    <Tabbar :active="1"></Tabbar>
   </div>
 </template>
 
