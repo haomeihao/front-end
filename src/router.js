@@ -1,12 +1,20 @@
 import Vue from 'vue';
 import Router from 'vue-router';
+import axios from 'axios';
 
 Vue.use(Router);
 
 const routes = [
   {
     path: '*',
-    redirect: '/Index'
+    redirect: '/Index',
+    method: {
+      ajaxData: function () {
+        this.$http.get('http://www.baidu.com').then((res) => {
+          alert('哈哈2');
+        });
+      }
+    }
   },
   {
     name: 'Login',
@@ -56,6 +64,12 @@ const routes = [
 routes.forEach(route => {
   route.path = route.path || '/' + (route.name || '');
 });
+
+/*routes.beforeRouteEnter((to, from, next) => {
+  axios.get(`/api${to.path}`).then(({data}) => {
+    next(vm => Object.assign(vm.$data, data));
+  })
+});*/
 
 const router = new Router({routes});
 

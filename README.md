@@ -31,3 +31,9 @@ See [Configuration Reference](https://cli.vuejs.org/config/).
 ## Important
 
 - 父组件向子组件传递参数 props
+- ajax libs
+``` 
+yarn add axios -S
+yarn add vuex -S
+yarn add vue-resource -S
+```

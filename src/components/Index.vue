@@ -1,4 +1,4 @@
-<template xmlns:v-lazy="http://www.w3.org/1999/xhtml">
+<template>
   <div class="index">
     <!--<h2>首页资讯</h2>-->
     <!--<Navbar></Navbar>-->
@@ -9,13 +9,7 @@
       </van-tab>
     </van-tabs>
 
-    <!--<van-card
-        num="{{goods.remain}}"
-        price="{{goods.price}}"
-        desc="{{goods.express}}"
-        title="{{goods.title}}"
-        :thumb="goods.thumb"
-    />-->
+    <p v-for="item in items">{{item.name}}</p>
 
     <Tabbar></Tabbar>
   </div>
@@ -26,18 +20,21 @@
   import Navbar from './Navbar.vue'
 
   import Vue from 'vue'
+  import Vuex from 'vuex'
   import {Swipe, SwipeItem, Lazyload} from 'vant';
 
   Vue.use(Swipe).use(SwipeItem).use(Lazyload);
+  Vue.use(Vuex);
 
   export default {
     name: 'Index',
     components: {
       Tabbar,
-      Navbar
+      // Navbar
     },
     props: {
-      msg: String
+      msg: String,
+      ajaxData: Object
     },
     data() {
       return {
@@ -57,8 +54,17 @@
           express: '免运费',
           remain: 19,
           thumb: 'https://img.yzcdn.cn/public_files/2017/10/24/e5a5a02309a41f9f5def56684808d9ae.jpeg'
-        }
+        },
+        items: []
       }
+    },
+    created() {
+      this.$http.get('http://127.0.0.1:8888/maker/user/list').then((data) => {
+        this.items = data.body.data;
+      });
+    },
+    mounted() {
+      alert('哈哈1');
     },
     methods: {
 

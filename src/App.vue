@@ -2,7 +2,8 @@
   <div id="app">
     <!--<img alt="Vue logo" src="./assets/logo.png">-->
     <!--<HelloWorld msg="Welcome to Your Vue.js App"/>-->
-    <router-view />
+    <router-view></router-view>
+
   </div>
 </template>
 
@@ -16,6 +17,17 @@ export default {
   components: {
     // HelloWorld,
     // Login
+  },
+  data() {
+    return {
+      items: []
+    }
+  },
+  created() {
+    /*this.$http.get('http://localhost:8090/api/goods').then((data) => {
+      this.items = data.body.data;
+      console.log(this.items)
+    });*/
   }
 }
 </script>
